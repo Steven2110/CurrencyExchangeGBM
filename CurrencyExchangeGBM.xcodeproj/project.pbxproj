@@ -13,6 +13,12 @@
 		B050F3E32A2DE4D20045B2F8 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B050F3E22A2DE4D20045B2F8 /* Preview Assets.xcassets */; };
 		B050F3EB2A2DE4E90045B2F8 /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = B050F3EA2A2DE4E90045B2F8 /* .gitignore */; };
 		B050F3ED2A2DE4F00045B2F8 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = B050F3EC2A2DE4F00045B2F8 /* README.md */; };
+		B050F3F32A2DF6920045B2F8 /* CEGMainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B050F3F22A2DF6920045B2F8 /* CEGMainView.swift */; };
+		B050F3F52A2DF6B10045B2F8 /* CEGPicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = B050F3F42A2DF6B10045B2F8 /* CEGPicker.swift */; };
+		B050F3F72A2DF6D30045B2F8 /* Currency.swift in Sources */ = {isa = PBXBuildFile; fileRef = B050F3F62A2DF6D30045B2F8 /* Currency.swift */; };
+		B050F3F92A2DF7020045B2F8 /* Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = B050F3F82A2DF7020045B2F8 /* Utils.swift */; };
+		B050F3FB2A2DF7760045B2F8 /* CEGViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B050F3FA2A2DF7760045B2F8 /* CEGViewModel.swift */; };
+		B050F3FD2A2DF97B0045B2F8 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = B050F3FC2A2DF97B0045B2F8 /* Constants.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +30,12 @@
 		B050F3E42A2DE4D20045B2F8 /* CurrencyExchangeGBM.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = CurrencyExchangeGBM.entitlements; sourceTree = "<group>"; };
 		B050F3EA2A2DE4E90045B2F8 /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
 		B050F3EC2A2DE4F00045B2F8 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		B050F3F22A2DF6920045B2F8 /* CEGMainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CEGMainView.swift; sourceTree = "<group>"; };
+		B050F3F42A2DF6B10045B2F8 /* CEGPicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CEGPicker.swift; sourceTree = "<group>"; };
+		B050F3F62A2DF6D30045B2F8 /* Currency.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Currency.swift; sourceTree = "<group>"; };
+		B050F3F82A2DF7020045B2F8 /* Utils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Utils.swift; sourceTree = "<group>"; };
+		B050F3FA2A2DF7760045B2F8 /* CEGViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CEGViewModel.swift; sourceTree = "<group>"; };
+		B050F3FC2A2DF97B0045B2F8 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +71,11 @@
 			isa = PBXGroup;
 			children = (
 				B050F3DB2A2DE4D00045B2F8 /* CurrencyExchangeGBMApp.swift */,
+				B050F3F82A2DF7020045B2F8 /* Utils.swift */,
+				B050F3FC2A2DF97B0045B2F8 /* Constants.swift */,
+				B050F3EF2A2DF66C0045B2F8 /* Models */,
+				B050F3F12A2DF6760045B2F8 /* ViewModels */,
+				B050F3EE2A2DF6680045B2F8 /* Views */,
 				B050F3DD2A2DE4D00045B2F8 /* ContentView.swift */,
 				B050F3DF2A2DE4D20045B2F8 /* Assets.xcassets */,
 				B050F3E42A2DE4D20045B2F8 /* CurrencyExchangeGBM.entitlements */,
@@ -73,6 +90,31 @@
 				B050F3E22A2DE4D20045B2F8 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		B050F3EE2A2DF6680045B2F8 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				B050F3F22A2DF6920045B2F8 /* CEGMainView.swift */,
+				B050F3F42A2DF6B10045B2F8 /* CEGPicker.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		B050F3EF2A2DF66C0045B2F8 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				B050F3F62A2DF6D30045B2F8 /* Currency.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		B050F3F12A2DF6760045B2F8 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				B050F3FA2A2DF7760045B2F8 /* CEGViewModel.swift */,
+			);
+			path = ViewModels;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -148,7 +190,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				B050F3DE2A2DE4D00045B2F8 /* ContentView.swift in Sources */,
+				B050F3F72A2DF6D30045B2F8 /* Currency.swift in Sources */,
+				B050F3F32A2DF6920045B2F8 /* CEGMainView.swift in Sources */,
 				B050F3DC2A2DE4D00045B2F8 /* CurrencyExchangeGBMApp.swift in Sources */,
+				B050F3F52A2DF6B10045B2F8 /* CEGPicker.swift in Sources */,
+				B050F3FB2A2DF7760045B2F8 /* CEGViewModel.swift in Sources */,
+				B050F3F92A2DF7020045B2F8 /* Utils.swift in Sources */,
+				B050F3FD2A2DF97B0045B2F8 /* Constants.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
